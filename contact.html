@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" type="image/png" href="./img/contact+us+contacts+phone+support+telephone+icon-1320166528627385734.png">
+    <link rel="stylesheet" href="./img/icons/icofont/icofont.min.css">
+    <script src="https://kit.fontawesome.com/75959ada6e.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="mcontainer">
+        <div class="container">  
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                
+                <div onclick="myFunction()" class="dropdown">
+              <i class="icofont-navigation-menu dropbtn" style="font-size: 50px;"></i>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                </div>
+            </nav>
+            <div class="content">
+                <h1 id="page3">Contact Page</h1>
+            </div>
+            <footer class="footer">
+                <div>
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-square" style="font-size: 50px;"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter-square" style="font-size: 50px;"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram" style="font-size: 50px;"></i></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                }
+            }
+            }
+        }
+        </script>
+</body>
+</html>

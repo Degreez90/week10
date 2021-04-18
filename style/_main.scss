@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+}
+
+a{
+    margin: 5px 5px 0px;
+    color: aliceblue;
+}
+
+nav i{
+    display: none;
+}
+
+i{
+    margin: 0px 40px;
+}
+
+.mcontainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #276458;
+    padding: 20px;
+}
+
+#page1{
+    font-family: 'Zen Dots', cursive;
+}
+
+#page2{
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#page3{
+    font-family: 'Lobster', cursive;
+}
